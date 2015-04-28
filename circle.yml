@@ -7,5 +7,5 @@ deployment:
   staging:
     branch: master
     commands:
-      - git remote add bitbucket https://codevinsky@bitbucket.org/3bound/transdimensional-integration.git
+      - git remote add bitbucket git@bitbucket.org:3bound/transdimensional-integration.git
       - git push -u bitbucket --all
