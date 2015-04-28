@@ -1,0 +1,10 @@
+general:
+  build_dir: ./
+test:
+  override:
+    - echo true
+deployment:
+  staging:
+    branch: master
+    commands:
+      - git push -u upstream master
